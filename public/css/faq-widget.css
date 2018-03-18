@@ -1,0 +1,102 @@
+#faq-div{
+	position:fixed;
+	right:20px;
+	bottom: 20px;
+	padding:15px;
+	border-radius: 30px;
+	color:white;
+	font-size: 1.6rem;
+	background: #7ec757;
+	cursor: pointer;
+}
+
+.scroll-auto-y{
+	overflow-y: auto;
+	border-bottom-right-radius: 10px;
+}
+#faq-close-button{
+	position: absolute;
+	/*float: right;*/
+	right:5px;
+	cursor: pointer;
+	padding-top:5px;
+	color:rgba(0,0,0,.7);
+	font-size: 1.5rem;
+}
+#faq-header{
+	padding:10px;
+	background: #f8f8f8;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom:1px solid rgba(0,0,0,.2);
+	color:rgba(0,0,0,.7);
+}
+#faq-header-support-text{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+#faq-body{
+	/*height:calc(100% - 82px);*/
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#faq-back-button{
+	position: absolute;
+	/*float: left;*/
+	left: 5px;
+	display: none;
+	padding-top:5px;
+	font-size: 1.5rem;
+	color:rgba(0,0,0,.7);
+	cursor: pointer;
+}
+.parent {
+    display: flex;
+    flex-flow:column;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    min-width: 100%;
+}
+
+.child-top {
+    flex: 0 1 auto;
+    border-radius: 10px 10px 0 0;
+    /*width:100%;*/
+}
+
+.child-bottom {
+    flex: 1 1 auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /*min-width:100%;*/
+    padding:15px;
+}
+#faq-widget-div{
+	position:fixed;
+	display: none;
+	right: 20px;
+	bottom:20px;
+	border-radius: 10px;
+	border:1px solid rgba(0,0,0,.3);
+	box-shadow: 0 0 8px 2px rgba(0,0,0,.4);
+	max-width: 300px;
+	max-height: 300px;
+	min-width: 300px;
+	min-height: 300px;
+	width: 300px;
+	height:300px;
+	background: white;
+}
+.fadeOutDown {
+  -webkit-animation: fadeOutDown .4s; /* Safari 4+ */
+  -moz-animation:    fadeOutDown .4s; /* Fx 5+ */
+  -o-animation:      fadeOutDown .4s; /* Opera 12+ */
+  animation:         fadeOutDown .4s; /* IE 10+, Fx 29+ */
+}
+.fadeInUp{
+	-webkit-animation: fadeInUp .4s; /* Safari 4+ */
+  	-moz-animation:    fadeInUp .4s; /* Fx 5+ */
+  	-o-animation:      fadeInUp .4s; /* Opera 12+ */
+  	animation:         fadeInUp .4s; /* IE 10+, Fx 29+ */
+}

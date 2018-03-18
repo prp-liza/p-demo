@@ -1,0 +1,72 @@
+{
+  "name": "praips",
+  "version": "1.0.0",
+  "description": "PRAIPS",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Lavi",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babelify": "^8.0.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "browserify": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.5.7",
+    "es6-shim": "^0.35.3",
+    "express": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "multer": "^1.3.0",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "passport.socketio": "^3.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-notification-system": "^0.2.16",
+    "react-router-dom": "^4.2.2",
+    "react-rte": "^0.15.0",
+    "react-scripts": "1.0.17",
+    "react-slick": "^0.15.4",
+    "react-tooltip": "^3.4.0",
+    "reactify": "^1.1.1",
+    "sessionstore": "^1.3.1",
+    "socket.io": "^2.0.4",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "browser-sync": "^2.23.2",
+    "browserify-css": "^0.14.0",
+    "envify": "^4.1.0",
+    "uglify-js": "^3.3.2",
+    "uglifyify": "^4.0.5"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "./app.js",
+      "functions",
+      "models",
+      "routes"
+    ]
+  }
+}
